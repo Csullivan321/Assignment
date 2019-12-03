@@ -16,6 +16,8 @@ namespace Assignment
         public string Description { get; set; }
         public decimal Cost { get; set; }
 
+        public string TypeOfActivity { get; set; }
+
         public int CompareTo(object obj)
         {
             Activity that = (Activity)obj;

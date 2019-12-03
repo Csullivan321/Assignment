@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <RadioButton x:Name="rbtn1" Content="All" HorizontalAlignment="Left" Margin="27,97,0,0" VerticalAlignment="Top" Click="Rbtn1_Click"/>
-        <RadioButton x:Name="rbtn2" Content="Land" HorizontalAlignment="Left" Margin="27,127,0,0" VerticalAlignment="Top" Click="Rbtn2_Click"/>
-        <RadioButton x:Name="rbtn3" Content="Water" HorizontalAlignment="Left" Margin="27,155,0,0" VerticalAlignment="Top" Click="Rbtn3_Click"/>
-        <RadioButton x:Name="rbtn4" Content="Air" HorizontalAlignment="Left" Margin="27,183,0,0" VerticalAlignment="Top" Click="Rbtn4_Click"/>
+        <RadioButton x:Name="rbtn2" Content="Land" HorizontalAlignment="Left" Margin="27,127,0,0" VerticalAlignment="Top" Click="Rbtn1_Click"/>
+        <RadioButton x:Name="rbtn3" Content="Water" HorizontalAlignment="Left" Margin="27,155,0,0" VerticalAlignment="Top" Click="Rbtn1_Click"/>
+        <RadioButton x:Name="rbtn4" Content="Air" HorizontalAlignment="Left" Margin="27,183,0,0" VerticalAlignment="Top" Click="Rbtn1_Click"/>
         <ListBox x:Name="lstbx" HorizontalAlignment="Left" Height="198" Margin="126,98,0,0" VerticalAlignment="Top" Width="175" Loaded="Lstbx_Loaded" SelectionChanged="Lstbx_SelectionChanged"/>
         <Label x:Name="lbl1" Content="All Activities" HorizontalAlignment="Left" Margin="126,72,0,0" VerticalAlignment="Top" Loaded="Lbl1_Loaded"/>
         <Button x:Name="btn1" Content="&gt;&gt;" HorizontalAlignment="Left" Margin="342,127,0,0" VerticalAlignment="Top" Width="75" Click="Btn1_Click"/>
@@ -20,6 +20,7 @@
         <Label x:Name="lbl3" Content="Description" HorizontalAlignment="Left" Margin="126,322,0,0" VerticalAlignment="Top" Loaded="Lbl3_Loaded"/>
         <Label x:Name="lbl4" Content="Total Cost" HorizontalAlignment="Left" Margin="510,27,0,0" VerticalAlignment="Top" Loaded="Lbl4_Loaded"/>
         <TextBlock x:Name="tblkDescription" HorizontalAlignment="Left" Margin="134,353,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="551"/>
+        <TextBlock x:Name="TxblkCost" HorizontalAlignment="Left" Margin="636,32,0,0" TextWrapping="Wrap" Text="€" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
